@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+/* Mapをインラインブロックで表示する */
+.mapbox {
+  display: inline-block;
+  background-color: azure;
+  padding: 10px;
+}
+
