@@ -38,9 +38,10 @@
 }
 
 /* Mapをインラインブロックで表示する */
-.mapbox {
+.maptile {
   display: inline-block;
   background-color: azure;
   padding: 10px;
+  width: 400px;
 }
 

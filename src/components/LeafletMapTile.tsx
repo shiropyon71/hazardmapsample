@@ -26,7 +26,7 @@ const LeafletMapTile = (optionProps: leafletMapTileOptionsPropsType) => {
   const {options} = optionProps;
 
   return (
-    <div className="mapbox">
+    <div className="maptile">
       <div>{options.hazardMapName}</div>
       <MapContainer center={options.position} zoom={17} style={{ height: "400px", width: "400px"}}>
         <TileLayer
