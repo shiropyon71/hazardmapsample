@@ -32,9 +32,13 @@ const LeafletMapTile = (optionProps: leafletMapTileOptionsPropsType) => {
         <TileLayer
           attribution='&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html">地理院タイル</a> contributors'
           url="https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png"
+          minZoom={17}
+          maxZoom={17}
         />
         <TileLayer
           url={options.hazardMapLayerUrl}
+          minZoom={17}
+          maxZoom={17}
         />
         <Marker position={options.position}>
           <Popup>
