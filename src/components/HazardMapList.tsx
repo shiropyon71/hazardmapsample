@@ -40,7 +40,7 @@ const layer6: LeafletMapTileOptions = {
 var hazardMapList = new Array<HazardMapCsvItem>();
 var hazardMapTileOptionsList = new Array<LeafletMapTileOptions>();
 
-const LeafletMap = () => {
+const HazardMapList = () => {
 
   const [csvFile, setCsvFile] = useState<Blob>(new Blob());
   const [hazardMapTileOptionsListState, setHazardMapTileOptionsListState] = useState<LeafletMapTileOptions[]>([]);
@@ -119,4 +119,4 @@ const LeafletMap = () => {
   );  
 };
 
-export default LeafletMap;
+export default HazardMapList;

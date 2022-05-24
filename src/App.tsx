@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import LeafletMap from './components/LeafletMap';
+import HazardMapList from './components/HazardMapList';
 
 function App() {
   return (
     <div className="App">
-      <LeafletMap />
+      <HazardMapList />
     </div>
   );
 }

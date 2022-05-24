@@ -9,7 +9,7 @@ export function mapArrayToHazardMapCsvItem(data: string[][]): HazardMapCsvItem[]
 
   var retList = Array<HazardMapCsvItem>();
   // 先頭と末尾は除外
-  for (var i = 0; i < data.length - 1; i++) {
+  for (var i = 1; i < data.length - 1; i++) {
     var value : HazardMapCsvItem = {
       no: Number.parseInt(data[i][0]),
       name: data[i][1].replaceAll('"',""),
